@@ -1,1 +1,30 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Account Verification</title>
+</head>
+<body>
+    <div class="otp-account">
+        <h1>Verify Your Account</h1>
+        <p>We emailed you six digit code to <a href="#">vmanjhi98@gmail.com</a></p>
+        <p>Enter the code below to confirm your email address.</p>
+        <div class="container">
+            <input id="f" type="text" maxlength="1" onkeyup="moveToNext(this,'i')">
+            <input id="i" type="text" maxlength="1" onkeyup="moveToNext(this,'r')">
+            <input id="r" type="text" maxlength="1" onkeyup="moveToNext(this,'s')">
+            <input id="s" type="text" maxlength="1" onkeyup="moveToNext(this,'e')">
+            <input id="e" type="text" maxlength="1" onkeyup="moveToNext(this,'c')">
+            <input id="c" type="text" maxlength="1">
+        </div>
+        <button>Verify Account</button>
+            <p>Did't get the Verification code <a href="#">Resend</a></p>
+            <p>We didn't actully send you an email as we don't have your email,right?</p>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
